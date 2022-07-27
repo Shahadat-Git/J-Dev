@@ -52,7 +52,7 @@
         <!-- cover section -->
         <section class="container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-inner">
+                <div class="carousel-inner rounded">
                   <div class="carousel-item active">
                     <img src="images/cover/cover-1.png" class="d-block w-100 carousel-height" alt="cover-1">
                     <div class="carousel-caption d-md-block mb-5">
@@ -200,7 +200,7 @@
             </div>
         </section>
         <!-- Explore Section -->
-        <section class="container">
+        <section class="container my-5">
             <div class="explore-area mt-5 bg-explore">
                 <div class="row">
                     <div class="col-lg-5 col-md-5">
@@ -240,7 +240,50 @@
                 </div>
             </div>
         </section>
-        
+        <!-- register section -->
+        <section class="container bg-info rounded my-5">
+            <div class="register-area p-5 d-flex flex-lg-row flex-md-column flex-sm-column justify-content-between align-items-center text-center text-lg-start">
+                <div class="register-text">
+                    <h3 class="text-white text-lg-left">Ready to join?</h3>
+                    <small><p class="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p></small>
+                </div>
+                <div class="register-button">
+                    <button type="button" class="btn text-info bg-white fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <form>
+                                <div class="mb-3">
+                                  <label for="email-name" class="col-form-label">Email:</label>
+                                  <input type="text" class="form-control" id="email-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password-name" class="col-form-label">Password:</label>
+                                    <input type="text" class="form-control" id="password-name">
+                                </div>
+                              </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Register</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- student section -->
+        <section class="container">
+            <h2>Meet Our Successfull Students</h2>
+        </section>
+
+
     </main>
     <!-- bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>

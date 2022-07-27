@@ -1,6 +1,7 @@
 /* carousel height fixed */
 .carousel-height{
     height: 70vh;
+    width: 100vw;
     object-fit: cover;
 }
 /* for card images */
@@ -8,4 +9,9 @@
     width: 100vw;
 }
 
+/* explore-area-color */
+.bg-explore{
+    background-color: 
+    #F4FAFD;
+}
     

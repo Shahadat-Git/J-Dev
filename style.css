@@ -3,12 +3,12 @@
     height: 70vh;
     width: 100vw;
     object-fit: cover;
+    filter: opacity(.50);
 }
 /* for card images */
 .card-width{
     width: 100vw;
 }
-
 /* explore-area-color */
 .bg-explore{
     background-color: 
